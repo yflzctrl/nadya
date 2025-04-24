@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>english-online</title>
+<style>
+  /* Основные стили страницы */
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #3d496d;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Центрированный контейнер обычно с ограниченной шириной */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  header {
+    background-color: #f8f8f8; /* светлый фон */
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    position: sticky; /* чтобы зедер был фиксированным при прокрутке */
+    top: 0;
+    z-index: 999;
+  }
+
+  /* Логотип или название в зедере */
+  .header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between; /* слева название, справа меню или позиционирование */
+    align-items: center;
+  }
+
+  /* Название или логотип */
+  .logo {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .about-me {
+    display: flex; /* Используем Flexbox для выстраивания элементов в ряд */
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+    max-width: 800px; /* Ограничиваем максимальную ширину блока */
+    margin: 50px auto; /* Располагаем по центру с отступами сверху и снизу */
+    padding: 20px; /* Отступы внутри контейнера */
+    background-color: white; /* Цвет фона блока "Обо мне" */
+    border-radius: 10px; /* Закругляем углы */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+}
+
+.image-container {
+    flex: 1; /* Позволяем этому блоку занимать пространство */
+    text-align: center; /* Выравнивание изображения по центру */
+}
+
+.profile-image {
+    width: 150px; /* Ширина изображения */
+    height: 150px; /* Высота изображения */
+    border-radius: 50%; /* Делаем изображение круглым */
+    object-fit: cover; /* Обеспечивает обрезку изображения по размеру */
+}
+
+.text-content {
+    flex: 2; /* Позволяем этому блоку занимать больше пространства */
+    padding-left: 20px; /* Отступ слева для текста */
+}
+
+  
+  /* Заголовок */
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* Подзаголовки */
+  h2 {
+    font-size: 1.8em;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  /* Основной текст */
+  p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  }
+
+  /* Вставка изображений */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+
+  /* Оформление блоков */
+  .section {
+    margin-bottom: 50px;
+  }
+
+  /* Стили для ссылок */
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  
+  /* Адаптивность для мобильных устройств */
+  @media(max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+  }
+</style>
+</head>
+<body>
+  
+    <header>
+    <div class="header-container">
+      <div class="logo">english</div>
+      <!-- Можно добавить меню здесь -->
+    </div>
+  </header>
+  <div class="about-me">
+    <div class="image-container">
+        <img src="https://i.pinimg.com/736x/f5/50/c9/f550c94e2b7baa8caac52b3b563e6204.jpg" alt="About me image" class="profile-image">
+    </div>
+    <div class="text-content">
+        <h1>привет!</h1>
+        <p>здесь ты можешь найти материалы для изучения английского языка</p>
+        <!-- Вы можете добавить сюда больше текста о себе -->
+    </div>
+</div>
+</div>
+  <div class="container">
+  <div class="section">
+    <h2>about this site</h2>
+    <p>я занимаюсь активным изучением иностранных языков,и здесь я собрала все необходимое для того, чтобы самостоятельно выучить английский язык. это мой личный опыт и знания, что я извлекла из собственных и чужих ошибок. здесь собраны полезные советы, рекомендации и актуальные ресурсы. всё содержимое и ссылки на официальные источники размещены на этом сайте для вашего удобства</p>
+    
+  </div>
+
+  <div class="section">
+    <h2>contents</h2>
+    <ul>
+      <li>сайты</li>
+      <li>приложения</li>
+      <li>видеоматериалы</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>сайты</h2>
+    <ol>
+      <li><a href="https://www.phrases.org.uk/" class="button">the phrase finder</a> - сайт с 2500 английских идиом, фраз и пословиц, которые мы используем каждый день, с объяснениями их значений и происхождения.</li>
+      <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-20 140332.png" alt="ьн зрещ"/>
+      <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-21 171350.png" alt="ьн зрещ"/>
+      <li><a href="https://www.english-online.at/index.htm" class="button">english online</a> - сайт с текстами на английском. в конце каждого текста есть список слов для изучения.</li>
+      <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-21 172410.png" alt="eng on"/>
+      <li><a href="https://player.fm/series/tedtalks-audio" class="button">ted talks daily</a> - проект, основанный на знаменитых конференциях и обучающих видео от TED Talks.</li>
+      <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-21 173950.png" alt="eng on"/>
+      <li><a href="https://www.snappywords.com/" class="button">snappy words</a> - интерактивный визуальный словарь формирует для каждого
+        слова сеть связанной с ним лексики и фраз.</li>
+      <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-21 190348.png" alt="eng om"/>
+      <li><a href="https://ru.englishcentral.com/myenglish/myfeed" class="button">english central</a> - сайт, где собраны сотни видео разнообразной тематики с субтитрами. после каждого видео есть упражнения для улучшения произношения</li>
+      <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-22 185413.png" alt="eng om"/>
+      <li><a href="https://www.examenglish.com/index.html" class="button">exam english</a> - сайт для тех, кто готовится к международным экзаменам по английскому</li>
+      <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-22 193351.png" alt="eng on"/>
+    </ol>
+    </div>
+
+    <div class="section">
+      <h2>приложения</h2>
+      <ol>
+        <li><a href="https://apps.apple.com/ru/app/%D1%80%D0%B5%D0%BC%D0%B5%D0%BC%D0%B1%D0%B0/id1033305988?platform=iphone" class="button">Ремемба</a> - приложение, которое помогает быстро пополнять словарный запас и запоминать слова и выражения.</li>
+        <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-22 204317.png" alt="eng app"/>
+        <li><p>TED - тысячи англоязычных лекций и спичей на самые разные темы c субтитрами.</p></li>
+        <ul>
+          <li><a href="https://play.google.com/store/apps/details?id=com.ted.android&amp;hl=ru&amp;gl=ru">google play</a></li>
+          <li><a href="https://apps.apple.com/ru/app/ted/id376183339">app store</a></li>
+          </ul>
+        <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-22 204438.png" alt="eng app"/>
+        <li><p>puzzle english - приложение определит ваш уровень знаний и сформирует программу под ваши запросы. здесь можно тренировать чтение, произношение и аудирование, а также грамматику.</p></li>
+        <ul>
+          <li><a href="https://play.google.com/store/apps/details?id=com.puzzleenglish.main&amp;hl=ru&amp;gl=ru">google play</a></li>
+          <li><a href="https://apps.apple.com/ru/app/puzzle-english/id1032671465">app store</a></li>
+          </ul>
+        <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-24 113643.png" alt="eng app"/>
+        <li><p>word reference - словарь с огромной базой слов и фраз.</p></li>
+        <ul>
+          <li><a href="https://play.google.com/store/apps/details?id=com.wordreference&amp;hl=ru&amp;gl=ru">google Play</a></li>
+          <li><a href="https://apps.apple.com/ru/app/wordreference-dictionary/id515127233">app Store</a></li>
+          </ul>
+        <img src="C:\Users\ivanp\OneDrive\Изображения\Screenshots\Снимок экрана 2025-04-24 113756.png" alt="eng app"/>
+
+      </ol>
+    </div>
+
+
+
+  <div class="section">
+    <h2>contact me ^^</h2>
+    <p>email: weeuwq@list.ru</p>
+  </div>
+  <hr>
+  <footer>
+    <p>brought to you by nadya with love</p>
+  </footer>
+</div>
+
+</body>
+</html>
